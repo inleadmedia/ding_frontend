@@ -156,7 +156,7 @@ function ding_frontend_views_default_views() {
   $handler->display->display_options['fields']['field_ding_body']['alter']['nl2br'] = 0;
   $handler->display->display_options['fields']['field_ding_body']['alter']['word_boundary'] = 1;
   $handler->display->display_options['fields']['field_ding_body']['alter']['ellipsis'] = 1;
-  $handler->display->display_options['fields']['field_ding_body']['alter']['strip_tags'] = 0;
+  $handler->display->display_options['fields']['field_ding_body']['alter']['strip_tags'] = 1;
   $handler->display->display_options['fields']['field_ding_body']['alter']['trim'] = 0;
   $handler->display->display_options['fields']['field_ding_body']['alter']['html'] = 0;
   $handler->display->display_options['fields']['field_ding_body']['element_type'] = 'div';
